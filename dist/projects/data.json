@@ -29,15 +29,15 @@
     "stack": "ESP32-S3 · Camera · FastAPI · Gemini · SQLite · I²S audio",
     "status": "Working hardware MVP. The Mac handles microphone input and processing; it is not yet a standalone wearable.",
     "repo": "https://github.com/desharajudevihasini/TIKI",
-    "video": "https://raw.githubusercontent.com/desharajudevihasini/TIKI/main/docs/media/tiki-live-demo.mp4",
-    "poster": "https://raw.githubusercontent.com/desharajudevihasini/TIKI/main/docs/media/tiki-demo-poster.jpg",
+    "video": "https://raw.githubusercontent.com/desharajudevihasini/TIKI/main/docs/hasini-portfolio/media/tiki-live-demo.mp4",
+    "poster": "https://raw.githubusercontent.com/desharajudevihasini/TIKI/main/docs/hasini-portfolio/media/tiki-demo-poster.jpg",
     "images": [
       [
-        "https://raw.githubusercontent.com/desharajudevihasini/TIKI/main/docs/media/tiki-glasses-prototype.jpg",
+        "https://raw.githubusercontent.com/desharajudevihasini/TIKI/main/docs/hasini-portfolio/media/tiki-glasses-prototype.jpg",
         "Prototype mounted on glasses"
       ],
       [
-        "https://raw.githubusercontent.com/desharajudevihasini/TIKI/main/docs/media/tiki-hardware-closeup.jpg",
+        "https://raw.githubusercontent.com/desharajudevihasini/TIKI/main/docs/hasini-portfolio/media/tiki-hardware-closeup.jpg",
         "Hardware close-up"
       ]
     ],
@@ -132,11 +132,11 @@
     "status": "Playable prototype with keyboard fallback; flight physics are deliberately simplified.",
     "repo": "https://github.com/desharajudevihasini/AERONAUT",
     "live": "https://aeronaut-hazel.vercel.app",
-    "video": "https://raw.githubusercontent.com/desharajudevihasini/AERONAUT/main/assets/demo.mp4",
-    "poster": "https://raw.githubusercontent.com/desharajudevihasini/AERONAUT/main/assets/setup.jpg",
+    "video": "https://raw.githubusercontent.com/desharajudevihasini/AERONAUT/main/hasini-portfolio/assets/demo.mp4",
+    "poster": "https://raw.githubusercontent.com/desharajudevihasini/AERONAUT/main/hasini-portfolio/assets/setup.jpg",
     "images": [
       [
-        "https://raw.githubusercontent.com/desharajudevihasini/AERONAUT/main/assets/setup.jpg",
+        "https://raw.githubusercontent.com/desharajudevihasini/AERONAUT/main/hasini-portfolio/assets/setup.jpg",
         "MiniLab 3 and AERONAUT side by side"
       ]
     ],

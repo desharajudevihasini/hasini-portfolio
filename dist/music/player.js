@@ -2,12 +2,12 @@
    Browser autoplay restrictions are respected: playback begins only on click. */
 (() => {
   const tracks = [
-    { title: 'Blue Hour', mood: 'quiet / piano-like', file: '/music/blue-hour.mp3' },
-    { title: 'Copper Current', mood: 'rhythmic / kinetic', file: '/music/copper-current.mp3' },
-    { title: 'Afterglow', mood: 'warm / late evening', file: '/music/afterglow.mp3' }
+    { title: 'Blue Hour', mood: 'quiet / piano-like', file: '/hasini-portfolio/music/blue-hour.mp3' },
+    { title: 'Copper Current', mood: 'rhythmic / kinetic', file: '/hasini-portfolio/music/copper-current.mp3' },
+    { title: 'Afterglow', mood: 'warm / late evening', file: '/hasini-portfolio/music/afterglow.mp3' }
   ];
   const style = document.createElement('link');
-  style.rel = 'stylesheet'; style.href = '/music/player.css';
+  style.rel = 'stylesheet'; style.href = '/hasini-portfolio/music/player.css';
   document.head.appendChild(style);
   const dock = document.createElement('aside');
   dock.className = 'music-dock'; dock.setAttribute('aria-label', 'Music player');
