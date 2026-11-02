@@ -1,0 +1,240 @@
+[
+  {
+    "slug": "tara",
+    "name": "TĀRA",
+    "tag": "Music / Mathematics / Culture",
+    "cat": "web",
+    "desc": "An interactive world where your voice becomes mathematics.",
+    "why": "Carnatic music is full of patterns that we feel before we try to calculate them. I wanted to make the science of a note feel as beautiful as the music itself, and make the tradition inviting to someone exploring it for the first time.",
+    "build": "TĀRA is a visual exploration of Carnatic music, swaras, pitch, harmonics and rhythm. Visitors can sing into their microphone, calibrate a reference Sa, inspect frequency and interval relationships, and explore music history and compositions through interactive visualizations.",
+    "stack": "JavaScript · Web Audio API · Canvas / WebGL · Signal processing",
+    "status": "Interactive web experience. Pitch and swara mapping are estimates; rhythm video analysis currently uses manual beat annotations.",
+    "repo": "https://github.com/desharajudevihasini/TARA",
+    "live": "https://desharajudevihasini.github.io/TARA/",
+    "features": [
+      "Microphone pitch and harmonic visualization",
+      "Swaras, frequency ratios and rhythm experiments",
+      "An interactive introduction to Carnatic music history"
+    ],
+    "proof": "The public site is interactive and the repository contains its source and a demo guide."
+  },
+  {
+    "slug": "tiki",
+    "name": "TIKI",
+    "tag": "Wearable AI / Computer vision",
+    "cat": "hardware",
+    "desc": "A pair of glasses that can look, answer, and remember.",
+    "why": "I wanted a companion that could understand something directly in front of us, not just respond to a typed question. TIKI began with a simple idea: what if you could point to something and ask about it?",
+    "build": "TIKI is a smart-glasses proof of concept built around an ESP32-S3 camera. The physical button captures photos, a Mac runs the AI and voice processing, and an attached speaker plays responses. Captures and descriptions can be saved to a local visual-memory library.",
+    "stack": "ESP32-S3 · Camera · FastAPI · Gemini · SQLite · I²S audio",
+    "status": "Working hardware MVP. The Mac handles microphone input and processing; it is not yet a standalone wearable.",
+    "repo": "https://github.com/desharajudevihasini/TIKI",
+    "video": "https://raw.githubusercontent.com/desharajudevihasini/TIKI/main/docs/media/tiki-live-demo.mp4",
+    "poster": "https://raw.githubusercontent.com/desharajudevihasini/TIKI/main/docs/media/tiki-demo-poster.jpg",
+    "images": [
+      [
+        "https://raw.githubusercontent.com/desharajudevihasini/TIKI/main/docs/media/tiki-glasses-prototype.jpg",
+        "Prototype mounted on glasses"
+      ],
+      [
+        "https://raw.githubusercontent.com/desharajudevihasini/TIKI/main/docs/media/tiki-hardware-closeup.jpg",
+        "Hardware close-up"
+      ]
+    ],
+    "features": [
+      "Button-activated photo capture",
+      "AI visual descriptions and voice response",
+      "Locally saved pictures and searchable descriptions"
+    ],
+    "proof": "The repository includes a real hardware demo, photographed prototype, firmware and a documented local setup."
+  },
+  {
+    "slug": "tree",
+    "name": "TREE",
+    "tag": "Sustainability / Machine learning",
+    "cat": "ml",
+    "desc": "Helping homeowners make sense of energy-efficient upgrades.",
+    "why": "It is easy to tell someone to make their home greener, but much harder to explain which upgrade fits their actual home and budget. We wanted the choices to be easier to understand.",
+    "build": "A home-efficiency exploration tool created for the IIIT Hyderabad MegathonX sustainability challenge. TREE estimates a Green Home Score and lets users compare insulation, glazing, heating, solar and other retrofit choices, including budget-aware combinations.",
+    "stack": "Python · FastAPI · scikit-learn · SQLite · HTML/CSS/JS",
+    "status": "MegathonX 2026 Round 2 team project. Energy and cost outputs are estimates.",
+    "repo": "https://github.com/desharajudevihasini/TREE",
+    "live": "https://tree-n3yk.onrender.com/app#locate",
+    "features": [
+      "Home energy analysis and explainable scoring",
+      "Budget-sensitive retrofit recommendations",
+      "What-if comparisons of cost and emissions"
+    ],
+    "proof": "The repository describes the methodology and team milestone, and links to a deployed prototype."
+  },
+  {
+    "slug": "raceos",
+    "name": "RaceOS",
+    "tag": "Machine learning / Motorsport",
+    "cat": "ml",
+    "desc": "What if racing data could suggest when to make a pit stop?",
+    "why": "Formula 1 strategy depends on timing and judgment. RaceOS was an experiment in whether a small machine-learning system could learn some of those decisions from race data.",
+    "build": "A Streamlit interface that accepts race conditions such as driver, lap, compound, tyre life and position, then uses a Random Forest model and rule-based scoring to produce an experimental pit-stop recommendation.",
+    "stack": "Python · Streamlit · Pandas · scikit-learn",
+    "status": "Completed learning prototype, not a validated strategy engine for real F1 races.",
+    "repo": "https://github.com/desharajudevihasini/RaceOS",
+    "live": "https://raceosf1-nufin4hinpnixgatyzjst7.streamlit.app/",
+    "features": [
+      "Interactive race-condition inputs",
+      "Model recommendation and probability",
+      "Risk and strategy guidance"
+    ],
+    "proof": "A public Streamlit app and a repository with training and prediction code are linked."
+  },
+  {
+    "slug": "heritagelens",
+    "name": "HeritageLens",
+    "tag": "3D reconstruction / Memory",
+    "cat": "web",
+    "desc": "Reconstructing an old family mansion from photographs, measurements and memory.",
+    "why": "A photograph lets you look at a place, but it cannot let you walk through it. I want to rebuild a real mansion from my family’s past so the rooms and details are not lost to time.",
+    "build": "An in-progress reconstruction experience with a React / Three.js viewer and a FastAPI backend. The experimentation includes photogrammetry with COLMAP and OpenMVS and plans for guided corrections, voice input and first-person exploration.",
+    "stack": "React · Three.js · FastAPI · COLMAP · OpenMVS",
+    "status": "In progress. Reconstructing the real mansion from limited source images and measurements is still an open challenge.",
+    "features": [
+      "3D scene viewing and spatial exploration",
+      "Photo and measurement-driven reconstruction experiments",
+      "Planned voice-guided corrections and narration"
+    ],
+    "proof": "The project is under active development; no public repository or demo recording was verified."
+  },
+  {
+    "slug": "trekker",
+    "name": "Trekker",
+    "tag": "Wearable technology / Outdoor safety",
+    "cat": "hardware",
+    "desc": "A safety wearable that combines an SOS button with sensor signals.",
+    "why": "Outdoor safety is not only about getting a location after something goes wrong. We wanted to explore how a small wearable could bring position, movement and a way to call for help together.",
+    "build": "An ESP32 safety-wearable experiment combining GNSS, heart-rate sensing, motion input, OLED readout, a buzzer and a physical SOS. The design explores BLE and location-aware safety behavior.",
+    "stack": "ESP32 · GNSS · MAX30102 · MPU6050 · BLE",
+    "status": "Prototype work; not a medically certified or emergency-response device.",
+    "features": [
+      "GNSS location and activity inputs",
+      "Physical SOS action and local alerting",
+      "Wearable sensing and phone-connectivity experiments"
+    ],
+    "proof": "Documented in the supplied portfolio. A standalone public repo and recording were not verified."
+  },
+  {
+    "slug": "aeronaut",
+    "name": "AERONAUT",
+    "tag": "Creative interfaces / Flight",
+    "cat": "web",
+    "desc": "Flying a jet with a music keyboard instead of a flight stick.",
+    "why": "I wanted to see what happens when you take an instrument designed for music and give every knob, pad, fader, and key a completely different purpose. Could the Arturia MiniLab 3 become an airplane cockpit?",
+    "build": "A browser-based F-16-inspired flight experiment controlled with an Arturia MiniLab 3 via Web MIDI. Piano keys, pads, knobs, faders and touch controls can change flight state and mission actions. It includes snowy terrain, cockpit and exterior cameras, a flight-data lab and recorded telemetry.",
+    "stack": "JavaScript · Three.js · Web MIDI · Vite",
+    "status": "Playable prototype with keyboard fallback; flight physics are deliberately simplified.",
+    "repo": "https://github.com/desharajudevihasini/AERONAUT",
+    "live": "https://aeronaut-hazel.vercel.app",
+    "video": "https://raw.githubusercontent.com/desharajudevihasini/AERONAUT/main/assets/demo.mp4",
+    "poster": "https://raw.githubusercontent.com/desharajudevihasini/AERONAUT/main/assets/setup.jpg",
+    "images": [
+      [
+        "https://raw.githubusercontent.com/desharajudevihasini/AERONAUT/main/assets/setup.jpg",
+        "MiniLab 3 and AERONAUT side by side"
+      ]
+    ],
+    "features": [
+      "MIDI-mapped throttle, controls and aerial stunts",
+      "Cockpit, chase and cinematic views",
+      "Mission challenges and telemetry playback"
+    ],
+    "proof": "The repository contains a 69-second real controller demo and a public playable build."
+  },
+  {
+    "slug": "nerf",
+    "name": "Nerf Controller",
+    "tag": "Physical computing / Sensors",
+    "cat": "hardware",
+    "desc": "Turning a Nerf blaster into a sensor-driven input device.",
+    "why": "I like looking at everyday objects and wondering whether they could do something completely different. A toy blaster seemed like a fun place to start experimenting with physical controls.",
+    "build": "An ESP32 hardware prototype with MPU6050 motion sensing, push buttons, a piezo impact sensor, LEDs and a buzzer. The firmware reads movement and physical inputs and provides immediate sensor and feedback output.",
+    "stack": "ESP32 · C++ · MPU6050 · Piezo · Arduino IDE",
+    "status": "Working sensing/feedback prototype; full game-controller mapping is a next step.",
+    "repo": "https://github.com/desharajudevihasini/nerf-controller",
+    "video_link": "https://www.linkedin.com/posts/devi-hasini-desharaju-002739402_kinda-chic-to-be-building-our-first-hardware-activity-7497201221166931968-Yx6z",
+    "features": [
+      "Motion and orientation sensor input",
+      "Physical impact and button detection",
+      "LED, buzzer and serial feedback"
+    ],
+    "proof": "The Arduino sketch is public and the README links to a LinkedIn hardware video."
+  },
+  {
+    "slug": "underwater",
+    "name": "Underwater Acoustics",
+    "tag": "Acoustic communication / Machine learning",
+    "cat": "ml",
+    "desc": "Exploring how underwater sound can help a system choose a clearer path.",
+    "why": "The ocean is difficult to communicate through, especially when machinery and vessels interfere with sound. I wanted to investigate what machine learning could learn from those signals.",
+    "build": "As part of an Advanced Academic Centre project, I am building towards an underwater acoustic routing system. Recorded audio is converted into STFT spectrograms for CNN-based interference analysis, with the longer-term goal of helping pick more reliable acoustic communication paths.",
+    "stack": "Python · Librosa · NumPy · STFT · TensorFlow / Keras",
+    "status": "Work in progress as part of the Advanced Academic Centre. Acoustic analysis and classification are being explored; an end-to-end routing system is not yet complete.",
+    "repo": "https://github.com/desharajudevihasini/underwater-acoustic-communication",
+    "features": [
+      "Wolfset dataset exploration and preprocessing",
+      "Spectrogram generation and CNN classification",
+      "Future noise mapping and routing research"
+    ],
+    "proof": "The published research code and README document the implemented pipeline and list the remaining work."
+  },
+  {
+    "slug": "astra",
+    "name": "ASTRA",
+    "tag": "Embedded systems / Fault recovery",
+    "cat": "hardware",
+    "desc": "Two controllers exploring how a system can recover after something fails.",
+    "why": "When electronics fail in a place where you cannot simply press restart, the interesting question is what the system can do for itself. ASTRA was a way to test that problem with real hardware.",
+    "build": "A spacecraft-inspired fault-recovery testbed. A main ESP32 and a supervising ESP32 exchange heartbeats while sensors provide fault signals. The design demonstrates nominal operation, fault detection, payload shutdown, recovery and a return to normal operation.",
+    "stack": "ESP32 · DS18B20 · Embedded C++ · FastAPI",
+    "status": "Team prototype; troubleshooting and full hardware validation are ongoing.",
+    "repo": "https://github.com/jagruthig2020-ship-it/ASTRA",
+    "repo_label": "Team repository",
+    "features": [
+      "Two-controller supervisor architecture",
+      "Heartbeat monitoring and fault-state transitions",
+      "Temperature sensing and payload recovery experiments"
+    ],
+    "proof": "The shared team repository documents the system; completed fault-recovery validation should not be assumed."
+  },
+  {
+    "slug": "milo",
+    "name": "MILO",
+    "tag": "Assistive robotics / Embedded systems",
+    "cat": "hardware",
+    "desc": "A mobile teddy-bear companion designed to make everyday life safer and friendlier for older adults.",
+    "why": "Technology can feel intimidating when it is supposed to make daily life easier. MILO starts with a familiar teddy-bear form and asks how an approachable robot could support older adults without making companionship feel clinical.",
+    "build": "In development: a low-cost mobile teddy-bear-inspired robot on an RC car platform. The intended prototype combines ESP32-based embedded electronics, voice interaction, medication reminders, wearable-based fall and vital-sign monitoring, camera-assisted awareness, obstacle sensing and emergency alerts. These functions are design goals and are not all implemented or validated yet.",
+    "stack": "ESP32 · IoT · Embedded systems · Computer vision · Python",
+    "status": "In development. Mobility, voice interaction, reminders, sensing and alert integration are planned prototype features; completed end-to-end operation has not been verified.",
+    "features": [
+      "RC car–based mobile teddy-bear companion with voice interaction",
+      "Planned reminders, fall/vital-sign monitoring and caregiver alerts",
+      "Low-cost embedded vision and obstacle-detection integration"
+    ],
+    "proof": "Concept and prototype integration in progress; a complete public demonstration is not yet available."
+  },
+  {
+    "slug": "roadster",
+    "name": "Roadster",
+    "tag": "Hardware / Automotive design",
+    "cat": "hardware",
+    "desc": "Building a Tesla Roadster-inspired miniature from the chassis up.",
+    "why": "I wanted to understand what goes into a car by making a smaller one, rather than only reading about how it works. A miniature roadster is a way to experiment with mechanics, electronics and the details of vehicle design.",
+    "build": "An ongoing from-scratch hardware build inspired by the Tesla Roadster. The plan brings a miniature chassis, steering and drive mechanisms, control electronics, power delivery and custom bodywork into one physical model. It is an independent student project, not a Tesla product.",
+    "stack": "Mechanical prototyping · Electronics · Motors · Microcontrollers · Power systems · CAD (planned)",
+    "status": "In progress. Chassis, drive, electrical integration and bodywork are being developed; a finished, road-tested model is not yet available.",
+    "features": [
+      "Miniature chassis and vehicle packaging",
+      "Steering, drive and power-system experiments",
+      "Custom Roadster-inspired exterior and hardware integration"
+    ],
+    "proof": "Ongoing physical build. Prototype photographs and a working demo will be added as the hardware develops."
+  }
+]
